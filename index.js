@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 
-const router = require('./routes');
+const router = require('./router');
 
 const app = express();
 const server = http.createServer(app);
